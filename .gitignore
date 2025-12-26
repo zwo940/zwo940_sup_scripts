@@ -1,8 +1,11 @@
-# --- Default: alles ignorieren (außer Verzeichnisse+Git)
+# --- Default: Erstmal alles ignorieren (außer Verzeichnisse + Git(hub) + Lizenz)
 *
 !*/
 !/.gitignore
 !/.gitattributes
+!/.github/**
+!/LICENSE
+!/NOTICE
 
 # --- bash-Scripte
 !**/*.sh
