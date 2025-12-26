@@ -1,0 +1,11 @@
+# --- Default: alles ignorieren (außer Verzeichnisse+Git)
+*
+!*/
+!/.gitignore
+!/.gitattributes
+
+# --- bash-Scripte
+!**/*.sh
+
+# --- Markdown
+!**/*.md
